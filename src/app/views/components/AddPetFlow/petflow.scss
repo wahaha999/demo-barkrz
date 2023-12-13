@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'All Round Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../../assets/fonts/All-Round-Gothic/AllRoundGothic-Medium.ttf');
+}
+.pet-information-page{     
+    .upload-section{
+        display: flex;
+        justify-content: center;
+
+        .upload-file{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 999;
+        }
+        
+        .upload-img{
+            background: #C4E4DA;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            position: relative;
+            .image-file{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+        .camera-img{
+            position: absolute;
+            top: 37%;
+            left: 35%;
+        }
+        .petleg-img {
+            bottom: -5px;
+            position: absolute;
+            right: -10px;
+            transform: rotate(-8.12deg);
+        }
+    }
+    .small-normal-label{
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: rgba(105, 105, 105, 0.54);
+        padding-top: 15px;
+    }
+    .pet-breed-input{
+        border: 1px solid #DDDDDD;
+        border-radius: 30px;
+            input {
+            background-color: #f2f3f5 !important;
+            border-radius: 30px !important;
+        }
+    }
+    .register-input label {
+        display: none;
+    }
+}
+
+.pet-gender-page{
+    .section-one.active {
+        background: #79B4BC;
+        box-shadow: 0px 1px 10px 6px #89858563;
+        background: #79b4bc3d;
+    }
+    .section-one.female.active {
+        box-shadow: 0px 1px 10px 6px #89858563;
+        background: #c359c821;
+    }
+    .section-one {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px -2px rgba(0, 0, 0, 0.14);
+        border-radius: 21px;
+        height: 176px;
+        width: 150px;
+        position: relative;
+        cursor: pointer;
+
+        .male-box{
+            background: #79B4BC;
+            position: absolute;
+            width: 66px;
+            height: 66px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 9%;
+            left: 8%;
+        }
+        .gender-key.active {
+            transform: rotate(230deg);
+        }
+        .gender-male-key.active {
+            transform: rotate(0deg);
+        }
+        img.petleg-img {
+            position: absolute;
+            bottom: -23px;
+            transform: rotate(-18.12deg);
+            right: -30px;
+            height: 80px;
+        }
+     
+        .gender-text.male {
+            color: #1F1F39;
+        }
+    }
+    .gender-text {
+        font-family: 'All Round Gothic';
+        font-weight: 700;
+        font-size: 17px;
+        color: #1F1F39;
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+    .section-one.female {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px -2px rgba(0, 0, 0, 0.14);
+        border-radius: 21px;
+        height: 176px;
+        width: 150px;
+        cursor: pointer;
+
+        .male-box{
+            background: #E897C0;
+        }
+        .gender-text.female{
+            color: #1F1F39;
+        }
+    }
+    .upload-section {
+        display: flex;
+        justify-content: space-evenly;
+    }
+        
+    .petleg-img.gender{
+        bottom: -30px !important;
+        transform: none !important;
+        right: -23px !important;
+    }
+    
+}
+.page-padding{
+    padding: 0 20px 20px 20px;
+}
+.pet-all-page{
+    height: 100%;
+    width: 100%;
+    font-family: 'All Round Gothic' !important;
+    font-style: normal;
+    position: relative;
+    .header-text .labeltext{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(31, 31, 57, 0.34);
+    }
+    .contact-header{
+        font-weight: 600;
+        color: #1F1F39;
+        font-size: 25px;
+        font-family: 'All Round Gothic';
+    }
+    .header-address{
+        font-weight: 700;
+        color: #1F1F39;
+        font-size: 15px;
+    }
+    .next-button {
+        width: 100%;
+        margin-top: 30px;
+        background: #8EC2B0;
+        border: 1px solid #8EC2B0;
+        border-radius: 35px;
+        bottom: 20px;
+        padding: 8px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-transform: lowercase;
+        font-family: 'All Round Gothic';
+    }
+}
+
+.pet-health-page{
+    .health-section{
+        .middle {
+            background: #F2F3F5;
+            border-radius: 9px;
+            padding: 15px;
+            font-size: 15px;
+            line-height: 20px;
+            color: #1F1F39;
+            padding: 5px 10px;
+            margin: 15px 0;
+        }
+        .buttons div {
+            background: #FFFFFF;
+            border-radius: 19.5px !important;
+            padding: 10px;
+            width: 50px;
+            height: 39px;
+            text-align: center;
+        }
+        .yes{
+            margin-right: 10px;
+        }
+        .active.no{
+            color: #fff !important;
+            background: #89CAB6 !important;
+        }
+        .active.yes{
+            background: #1F1F39 !important;
+            color: #fff !important;
+        }
+    }
+    .progress{
+        background: rgba(137, 202, 182, 0.5);
+    }
+    .progress-bar{
+        background: #89CAB6;
+    }
+    .MuiSlider-root{
+        color: #83cab6 !important;
+    }
+    .MuiSlider-thumb{
+        width: 18px;
+        height: 18px;
+    }
+    .MuiSlider-track, .MuiSlider-rail{
+        height: 8px;
+        border-radius: 8px;
+    }
+    .slider-lbs{
+        color: #1F1F39;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Roboto';
+    }
+    .slider-kg{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+    }
+}
+
+.pet-per-page{
+    .per-text{
+        font-weight: 700;
+        font-size: 16px;;
+        color: #1F1F39;
+    }
+    .per-checkbox{
+        padding: 5px 9px !important;
+
+    }
+    .MuiCheckbox-colorSecondary.Mui-checked {
+        color: #6bc5b0 !important;
+    }
+    .extra-notes{
+        padding: 20px 0;
+        .note-text{
+            font-weight: 700;
+            font-size: 16px;
+            color: #1F1F39;
+        }
+    }
+    .per-textarea{
+        background: #F2F3F5;
+        border: 1px solid rgba(31, 31, 57, 0.09);
+        border-radius: 8px;
+    }
+}
+
+.note-text-bottom{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(105, 105, 105, 0.54);
+    padding-top: 5px;
+}
+
+.pet-contact-page{
+    .hide-address{
+        font-weight: 400;
+        font-size: 15px;
+        color: #A5A5A5;
+
+    }
+    .MuiSwitch-colorSecondary.Mui-checked{
+        color: #f8f9fa;
+    }
+    .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+        background-color: #89CAB6;
+    }
+    .MuiSwitch-thumb {
+        width: 16px;
+        height: 16px;
+        margin-top: 1px;
+        margin-left: 5px;
+    }
+    .MuiSwitch-track {
+        height: 20px;
+        height: 18px;
+        border-radius: 27px;
+    }
+    .MuiSwitch-root {
+        width: 65px;
+        height: 38px;
+        padding: 9px 12px;
+    }
+    .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+        opacity: 1;
+    }
+    .find-address{
+        position: relative;
+        .input-search{  
+            position: absolute;
+            top: 14px;
+            left: 12px;
+        }
+        .css-yk16xz-control{
+            border-radius: 30px;
+        }
+    }
+    .css-xeggbx-placeholder{
+        padding-left: 24px;
+    }
+    .MuiButton-root:hover,
+    .add-button {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        background: #8EC2B0 !important;
+        border: 1px solid #8EC2B0;
+        border-radius: 35px;
+        padding: 7px 10px;
+        font-weight: 700;
+        font-size: 13px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+    }
+    .human-details{
+        height: 300px;
+        overflow-y: scroll;
+    }
+}
+
+.pageHeader{
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+    display: flex;
+    .content{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+    }
+    .progress{
+        width: 50%;
+        height: 11px;
+        background: rgba(137, 202, 182, 0.5);
+        border-radius: 28px;
+    }
+    .progress-bar{
+        background: #89CAB6;
+    }
+}

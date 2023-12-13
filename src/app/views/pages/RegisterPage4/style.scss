@@ -1,0 +1,39 @@
+.register4PageSpan {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.phone_number_plus_i {
+    margin-left: 15px;
+    font-size: 22px;
+    color: cornflowerblue;
+}
+
+.react-tel-input { 
+    .form-control {
+        width: inherit !important;
+        height: inherit !important;
+        border-radius: 20px;
+    }
+
+    .country-list {
+        text-align: left;
+    }
+
+    .flag-dropdown {
+        border-radius: 20px 0 0 20px;
+
+        &.open {
+            border-radius: 20px 0 0 20px;
+
+            .selected-flag { 
+                border-radius: 20px 0 0 20px;
+            }
+        }
+    }
+
+    .selected-flag { 
+        border-radius: 20px 0 0 20px;
+    }
+}

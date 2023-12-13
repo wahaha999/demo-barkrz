@@ -1,0 +1,64 @@
+.membership-span-first {
+    color: #84f5d2;
+    font-size:12px;
+    float:left;
+}
+
+.membership-span-second {
+    color: black;
+    font-size:15px;
+    float:left;
+}
+
+.membership-span-third {
+    color: green;
+    font-size:19px;
+    position:absolute;
+    right:45px;
+}
+
+.membership_card {
+    box-shadow: 0 4px 8px 4px rgba(255,255,255,0.7);
+    border-radius: 10px;
+    background-color: #3acbac;
+    padding: 25px;
+    color:white;
+
+    .membership_join_span {
+        font-size: 27px;
+        text-align: center;
+        // border-bottom: solid 1px white;
+    }
+}
+
+.membership_big_card {
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    }
+}
+
+.membership-table {
+    margin: 10px;
+    th {
+        padding: 10px;
+        background: #0cdf9a;
+        color: white;
+    }
+    td {
+        padding: 10px;
+    }
+    .red {
+        color: #c70700
+    }
+    .green {
+        color: #0cdf9a;
+    }
+}

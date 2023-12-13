@@ -1,0 +1,11 @@
+.gender-select {
+    cursor: pointer;
+    &:hover {
+        border: solid 4px #ff0000;
+        border-radius: 50%;    
+    }
+}
+.gender-selected {
+    border: solid 4px #ff0000;
+    border-radius: 50%;    
+}

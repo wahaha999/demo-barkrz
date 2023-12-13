@@ -1,0 +1,23 @@
+.report-lost,
+.report-lost button {
+  background: #89cab6 0% 0% no-repeat padding-box;
+  border: #89cab6;
+  border-radius: 9px;
+  height: 40px;
+  padding: 0px 12px;
+}
+
+.report-lost button {
+  color: #fff;
+  font-weight: 600;
+}
+
+.report-lost i {
+  color: #fff;
+}
+
+@media (max-width: 350px) {
+  .report-lost button {
+    height: 0px;
+  }
+}

@@ -1,0 +1,49 @@
+.barkrz-btn {
+    border:none;
+    border-radius: 5px;
+    background-color: #13bbb4;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    outline: none;
+    &:hover{
+        background-color: #1c807c;
+        color:white;
+        outline: none;
+    }
+    &:active {
+        background-color: #1c807c;
+        color:white;
+        outline: none;
+    }
+    &:focus {
+        background-color: #145553;
+        color:white;
+        outline: none;
+    }
+}
+.barkrz-btn-round {
+    border:none;
+    border-radius: 20px;
+    background-color: #13bbb4;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    outline: none;
+    outline-color: transparent;
+    &:hover{
+        background-color: #1c807c;
+        color:white;
+        outline: none;
+    }
+    &:active {
+        background-color: #1c807c;
+        color:white;
+        outline: none;
+    }
+    &:focus {
+        background-color: #145553;
+        color:white;
+        outline: none !important;
+    }
+}

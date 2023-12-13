@@ -1,0 +1,10 @@
+.boxMain {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+@media (max-width: 1024px) {
+  .boxMain .MuiGrid-container {
+    justify-content: center;
+  }
+}

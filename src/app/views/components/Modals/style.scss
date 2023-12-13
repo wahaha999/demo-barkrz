@@ -1,0 +1,22 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4a4040d9;
+    color: #fff;
+}
+
+.modal-card {
+    background-color: rgba(0,0,0,0.5);
+    width: 300px;
+    box-shadow: 0 4px 8px 4px rgba(255,255,255,0.7);
+    padding: 20px 40px;
+    border-radius: 5px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+}

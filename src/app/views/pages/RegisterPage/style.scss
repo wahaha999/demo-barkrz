@@ -1,0 +1,50 @@
+.register-form {
+  //   height: 1200px;
+  width: 100%;
+  // padding-top: 150px;
+  background-color: #fff;
+  .link {
+    &--reset-password {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration-line: underline;
+      color: #89cab6;
+
+      &:hover {
+        color: rgb(51, 58, 58);
+      }
+    }
+  }
+  .segmented-control {
+    background: #f0f3f2;
+    border-radius: 35px;
+  }
+  .register-input {
+    .form-control {
+      background: #f8f8f8;
+      border-radius: 35px;
+    }
+  }
+  .custom-button {
+    background: #89cab6;
+    border-radius: 35px;
+    color: #ffffff;
+    width: 50%;
+  }
+  .inner-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+.right-header {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.bottom-header {
+  position: absolute;
+  bottom: 0px;
+}

@@ -1,0 +1,23 @@
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b5;
+    color: #fff;
+    z-index: 1001;
+}
+.loader {
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    img {
+        width: 200px;
+       
+    }
+    
+}
+

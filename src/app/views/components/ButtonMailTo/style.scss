@@ -1,0 +1,11 @@
+
+.mail-to {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1f1f39;
+    text-align: start;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+}

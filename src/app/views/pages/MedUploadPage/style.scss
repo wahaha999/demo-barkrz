@@ -1,0 +1,12 @@
+.med-upload-span {
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    top: -40%;
+    &.left {
+        left: 10%;
+    }
+    &.right {
+        right: 10%;
+    }
+}

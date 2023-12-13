@@ -1,0 +1,74 @@
+/*!
+
+ =========================================================
+ * Paper Kit React - v1.0.0 based on Paper Kit - v2.2.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/barkrz-2
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+@import 'barkrz/variables';
+@import 'barkrz/mixins';
+
+// Plugins CSS
+@import "barkrz/plugins/plugin-bootstrap-switch";
+@import "barkrz/plugins/plugin-nouislider";
+@import "barkrz/plugins/plugin-datepicker";
+
+// Core CSS
+@import "barkrz/buttons";
+@import "barkrz/inputs";
+@import "barkrz/checkbox-radio";
+@import "barkrz/progress-bars";
+@import "barkrz/badges";
+@import "barkrz/pagination";
+@import "barkrz/typography";
+@import "barkrz/misc";
+@import "barkrz/labels";
+
+// components
+@import "barkrz/nucleo-icons";
+@import "barkrz/social-buttons";
+@import "barkrz/tabs-navs";
+@import "barkrz/navbars";
+@import "barkrz/dropdown";
+@import "barkrz/alerts";
+@import "barkrz/images";
+@import "barkrz/tooltips-and-popovers";
+@import "barkrz/modal";
+@import "barkrz/icons";
+@import "barkrz/carousel";
+@import "barkrz/footers";
+@import "barkrz/custom";
+@import "barkrz/LandingPage";
+// Cards
+@import "barkrz/cards";
+@import "barkrz/cards/card-plain";
+@import "barkrz/cards/card-register";
+@import "barkrz/cards/card-profile";
+
+// example pages and sections
+@import "barkrz/examples";
+@import "barkrz/sections";
+
+
+
+@import "barkrz/responsive";
+
+// React Differences
+@import "react/react-differences.scss";
+
+//Paper Kit Fonts
+@import "barkrz/fonts";
+
+html {
+  scroll-behavior: smooth;
+}
